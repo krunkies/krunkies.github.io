@@ -15,7 +15,7 @@
     document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
     document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );
     if (remaining < 0) {
-      window.open('http://google.com', "_self");
+      window.open('https://krunkies.github.io/haniday/index.html', "_self");
 
     }
   }, 1000);
