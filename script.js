@@ -5,7 +5,7 @@
   const hour = min * 60;
   const day = hour * 24;
 
-  const end = new Date('Dec 26, 2020 00:00:00').getTime();
+  const end = new Date('Nov 25, 2020 02:51:00').getTime();
 
   const int = setInterval(() => {
     const current = new Date().getTime();
