@@ -5,7 +5,7 @@
   const hour = min * 60;
   const day = hour * 24;
 
-  const end = new Date('Dec 26, 2020 00:34:00').getTime();
+  const end = new Date('Dec 26, 2020 00:36:00').getTime();
 
   const int = setInterval(() => {
     const current = new Date().getTime();
@@ -15,7 +15,7 @@
     document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
     document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );
     if (remaining < 0) {
-      window.open('https://krunkies.github.io/haniday/index.html', "_self");
+      window.open('https://krunkies.github.io/haniday/', "_self");
 
     }
   }, 1000);
